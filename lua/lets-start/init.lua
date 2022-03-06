@@ -1,4 +1,4 @@
-local Box = require('./box')
+local Box = require('box')
 local M = {}
 
 function M.init()
