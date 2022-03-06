@@ -15,7 +15,7 @@ function Box.append(self, text)
 end
 
 function Box.append_option(self, preffix, label, suffix)
-	vim.api.append(self.y, )
+	assert(self.buffer, "Error: Box needs a buffer to draw")
 	vim.api.nvim_buf_set_lines(self.buffer, self.y, -1, false, {
 		Option(preffix, label, suffix, self.width)})
 end
