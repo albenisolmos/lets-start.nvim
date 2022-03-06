@@ -1,4 +1,4 @@
-local Option = require('option')
+local Option = require('lets-start.option')
 local Box = {
 	margin = 0,
 	x = 0,
