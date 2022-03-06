@@ -1,12 +1,12 @@
 local Option = require('lets-start.option')
 local Box = {
-	margin = 0,
-	x = 0,
-	y = 0,
-	width = 0,
+	margin = 1,
+	x = 1,
+	y = 1,
+	width = 1,
 	center = false,
 	longest = 0,
-	buffer = nil,
+	buffer = true,
 }
 
 function Box.append(self, text)
